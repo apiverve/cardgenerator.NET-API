@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>APIVerve.API.CardGenerator</Title>
+    <Version>1.0.0</Version>
+    <Authors>APIVerve</Authors>
+    <Company>APIVerve</Company>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+    <PackageReadmeFile>Readme.md</PackageReadmeFile>
+    <PackageProjectUrl>https://apiverve.com/marketplace/api/cardgenerator</PackageProjectUrl>
+    <SignAssembly>False</SignAssembly>
+    <Description>Card Generator is a simple tool for generating test/sample card numbers. It returns a list of card numbers for testing.</Description>
+    <RepositoryUrl>https://github.com/apiverve/cardgenerator-NET</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>card generator; card generator api; card generator tool; card generator software; card generator service; card generator library; card generator sdk; card generator code; card generator script; card generator program; card generator application; card generator app; card generator utility; card generator helper; card generator helper tool; card generator helper software; card generator helper service; card generator helper library; card generator helper sdk; card generator helper code; card generator helper script; card generator helper program; card generator helper application; card generator helper app; card generator helper tool; card generator helper utility; card generator helper</PackageTags>
+    <Copyright>©2024 APIVerve. All Rights Reserved</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="Readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
