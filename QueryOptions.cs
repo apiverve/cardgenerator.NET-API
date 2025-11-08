@@ -6,6 +6,6 @@ namespace APIVerve
 {
     public class CardGeneratorQueryOptions {
 public string brand { get; set; }
-public integer count { get; set; }
+public int count { get; set; }
 }
 }
